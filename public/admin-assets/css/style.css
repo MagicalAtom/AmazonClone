@@ -34,3 +34,22 @@
 .bg-custom-blue {
     background: linear-gradient(to right, #01dbdf, #01a9ac);
 }
+.font-size-12 {
+    font-size: 12px !important;
+}
+.margin-left {
+    margin-left: 8rem !important;
+    padding-left: 1rem !important;
+}
+.margin-left-btn {
+    padding-left: 5.5rem !important;
+}
+.w-16rem {
+    max-width: 16rem !important;
+}
+.main-body table {
+    font-size: .80rem;
+}
+.max-height-2rem {
+    max-height: 2rem;
+}

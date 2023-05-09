@@ -5,16 +5,17 @@ namespace App\Http\Controllers\Admin\Market;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class CategoryController extends Controller
+class BrandController extends Controller
 {
     public function index()
     {
-return view('admin.market.category.index');
+        return view('admin.market.brand.index');
+
     }
 
     public function create()
     {
-        return view('admin.market.category.create');
+        return view('admin.market.brand.create');
     }
 
     public function store(Request $request)

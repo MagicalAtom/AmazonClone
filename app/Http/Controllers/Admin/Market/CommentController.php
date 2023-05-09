@@ -5,24 +5,19 @@ namespace App\Http\Controllers\Admin\Market;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class CategoryController extends Controller
+class CommentController extends Controller
 {
     public function index()
     {
-return view('admin.market.category.index');
+    return view('admin.market.comment.index');
     }
 
-    public function create()
-    {
-        return view('admin.market.category.create');
-    }
 
-    public function store(Request $request)
-    {
-    }
 
-    public function show($id)
+
+    public function show()
     {
+        return view('admin.market.comment.show');
     }
 
     public function edit($id)

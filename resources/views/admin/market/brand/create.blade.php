@@ -2,7 +2,7 @@
 
 
 @section('title')
-    دسته بندی
+    برند ها
 @endsection
 
 @section('content')
@@ -10,8 +10,8 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item  font-size-12">   <a href="#">خانه</a></li>
             <li class="breadcrumb-item font-size-12">   <a href="#">فروش</a></li>
-            <li class="breadcrumb-item font-size-12 " aria-current="page">    دسته بندی</li>
-            <li class="breadcrumb-item font-size-12 active" aria-current="page">   ایجاد دسته بندی</li>
+            <li class="breadcrumb-item font-size-12 " aria-current="page">   برند ها</li>
+            <li class="breadcrumb-item font-size-12 active" aria-current="page">افزودن برند</li>
         </ol>
     </nav>
 
@@ -21,31 +21,27 @@
             <section class="main-body-container">
                 <section class="main-body-container-header">
                     <h3 class="font-weight-bold">
-                      ایجاد دسته بندی
+                     افزودن برند
                     </h3>
                     <p>
-                      از این بخش میتوانید دسته بندی جدید برای محصولات خود ایجاد کنید
+               از این بخش میتوانید برند ها را به فروشگاه اضافه کنید
                     </p>
                 </section>
                 <section class="d-flex justify-content-between align-items-center mt-5 mb-5  border-bottom  py-2">
-                    <a href="{{ route('admin.market.category.index') }}" class="btn btn-info  btn-sm">بازگشت</a>
+                    <a href="{{ route('admin.market.brand.index') }}" class="btn btn-info  btn-sm">بازگشت</a>
                 </section>
                 <section class="">
                     <form action="" method="">
                         <section class="row">
                         <div class="col-12 col-md-6 form-group">
-                            <lable for="نام دسته بندی"> نام دسته بندی جدید</lable>
-                            <input type="text" placeholder="نام دسته بندی" class="form-control form-control-sm">
+                            <lable for="نام برند">نام برند</lable>
+                            <input type="text" placeholder="نام برند" class="form-control form-control-sm">
                         </div>
 
 
                         <div class=" col-12 col-md-6 form-group">
-                            <lable for="نام دسته بندی" class="mb-2"> نام دسته بندی جدید</lable>
-                            <select name="" id="" class="form-control form-control-sm">
-                                <option value="">دسته را انتخاب کنید</option>
-                                <option value="">وسایل الکترونیکی</option>
-                            </select>
-
+                            <lable for="تصویر برند" class="">تصویر برند</lable>
+                            <input type="file" class="form-control form-control-sm form-control-file ">
                         </div>
 <div class="col-12">
     <button class="btn btn-outline-primary btn-sm">ثبت</button>

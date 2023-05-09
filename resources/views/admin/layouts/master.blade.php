@@ -3,7 +3,7 @@
 
 <head>
     @include('admin.layouts.head-tag')
-    @yield('title')
+  <title>@yield('title')</title>
 
 </head>
 
